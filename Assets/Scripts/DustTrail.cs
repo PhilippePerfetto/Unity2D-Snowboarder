@@ -11,7 +11,7 @@ public class DustTrail : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         snowParticles.Play();
-        snowSound.Play(5000);
+        snowSound.PlayDelayed(5000);
 
     }
 
